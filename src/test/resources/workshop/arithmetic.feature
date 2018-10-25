@@ -14,7 +14,11 @@ Feature: Basic Arithmetic
     When I add 4 and 7
     Then the result is 11
 
-  Scenario Outline:  S Different operations
+
+
+
+
+  Scenario Outline:  Differents operations
    Given a calculator I just turned on
    When Operation <operation> is applied on <number1> and <number2>
    Then the result is <answer>
